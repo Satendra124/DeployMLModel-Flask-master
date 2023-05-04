@@ -1,6 +1,5 @@
 import numpy as np
-from flask import Flask, request, jsonify, render_template
-import pickle
+from flask import Flask, request, render_template
 from keras.models import load_model
 from PIL import Image
 from numpy import asarray
